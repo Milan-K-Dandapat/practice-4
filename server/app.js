@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', middleware, (req, res) => {
-    res.send(`Hello about World from the server`);
+    res.send(`Hello about Milan`);
 });
 
 app.get('/contact', (req, res) => {
