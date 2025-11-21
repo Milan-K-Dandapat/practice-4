@@ -17,7 +17,7 @@ app.get('/about', middleware, (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-    res.send(`Hello Contact World from the server hiii`);
+    res.send(`Hello Contact World from the server hiii milan`);
 });
 
 app.get('/signin', (req,res) => {
